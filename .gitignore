@@ -1,0 +1,35 @@
+# sbt
+bin/
+project/
+target/
+build/
+
+# eclipse
+build
+.classpath
+.project
+.settings
+.worksheet
+
+# intellij idea
+*.log
+*.iml
+*.ipr
+*.iws
+.idea
+
+# mac
+.DS_Store
+
+# misc
+.history
+.scala_dependencies
+.cache
+.cache-main
+
+# metals
+.metals/
+.bloop/
+.ammonite/
+metals.sbt
+.bsp
