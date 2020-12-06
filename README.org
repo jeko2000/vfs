@@ -1,0 +1,8 @@
+#+TITLE:     VFS - A (reference) implementation of a virtual file system
+#+AUTHOR:    Johnny Ruiz
+#+EMAIL:     jeko2000@yandex.com
+#+LANGUAGE:  en
+#+OPTIONS:   H:4 num:nil toc:2 p:t
+
+** VFS
+A (reference) implementation of a virtual file system written in Scala.
