@@ -2,7 +2,7 @@ package com.github.jeko2000.vfs.file_system
 
 import com.github.jeko2000.vfs.files.Directory
 
-class State(val root: Directory, val wd: Directory, val output: String) {
+case class State(val root: Directory, val wd: Directory, val output: String) {
   def show(): Unit = {
     println(output)
     print(State.PROMPT)

@@ -9,9 +9,10 @@ object FileSystem extends App {
   val root = Directory.ROOT
   var state = State(root, root)
   val scanner = new Scanner(System.in)
-  while (true) {
+  var line = ""
+  while (line != "exit") {
     state.show()
-    val input = scanner.nextLine()
-    state = Command.from(input)(state)
+    line = scanner.nextLine()
+    state = Command.from(line)(state)
   }
 }
